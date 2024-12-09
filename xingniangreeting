@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>新年快乐</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        a {
+            color: blue; /* 设置链接颜色为橙红色 */
+            font-size: 24px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #FF4500;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #FF4500;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<h1>欢迎来到我的网页</h1>
+<p>点击下方链接查看特别的新年祝福：</p >
+
+新年祝福
+
+<script>
+function showNewYearGreeting() {
+    alert("新年快乐！愿你在新的一年里幸福美满，健康平安，万事顺心！");
+}
+</script>
+
+</body>
+</html>
